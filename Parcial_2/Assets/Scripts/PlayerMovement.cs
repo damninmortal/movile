@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
             dir.Normalize();
         dir *= Time.deltaTime;
         rb2D.velocity = new Vector2(dir.x * speed, dir.y);
+        
 
         
     }

@@ -20,7 +20,8 @@ public class SpawnEnemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        enemyNum = GameObject.FindGameObjectsWithTag("Enemy");
+        enemyNum = GameObject.FindGameObjectsWithTag(enemy.tag);
+       
         int num = enemyNum.Length;
         
         if (num==maxEnemys)

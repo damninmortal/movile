@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public class EnemyHealth : MonoBehaviour
 {
     public float health = 1.0f;
+    public float shield = 1.0f;
+    public bool eShield;
     public Image healthBar;
+    public Image shieldBar;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +20,12 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        shieldBar.fillAmount = shield;
         healthBar.fillAmount = health;
+        if (shield<=0)
+        {
+            eShield = false;
+        }
         if (health <= 0)
         {
             Destroy(gameObject);
@@ -27,7 +35,15 @@ public class EnemyHealth : MonoBehaviour
     {
         if (col.gameObject.tag == "projectile")
         {
-            health -= 0.5f;
+            if (eShield==true)
+            {
+                shield -= 0.5f;
+            }
+            else
+            {
+                health -= 0.5f;
+            }
+           
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

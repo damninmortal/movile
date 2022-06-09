@@ -20,7 +20,7 @@ public class EnemyShoot : MonoBehaviour
     void Update()
     {
         RaycastHit2D hit2D = Physics2D.Raycast(spawnProjectile.position, transform.up);
-        if (hit2D.collider.tag=="Player")
+        if (hit2D.collider.CompareTag("Player"))
         {
             attack();
         }
