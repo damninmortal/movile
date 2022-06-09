@@ -2,7 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - EnemyHealth
-    - EnemyMovement
+    - EnemyMovement1
+    - EnemyMovement2
+    - EnemyMovement3
     - EnemyShoot
     - Panel
     - Parallax
@@ -17,7 +19,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
@@ -52,6 +53,158 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/Game 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1452}
+    - Class: 114
+      Script: {instanceID: 1474}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 2254}
+    - Class: 114
+      Script: {instanceID: 2684}
+    - Class: 114
+      Script: {instanceID: 2786}
+    - Class: 114
+      Script: {instanceID: 2858}
+    - Class: 114
+      Script: {instanceID: 3340}
+    - Class: 114
+      Script: {instanceID: 3356}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3464}
+    - Class: 114
+      Script: {instanceID: 3684}
+    - Class: 114
+      Script: {instanceID: 4060}
+    - Class: 114
+      Script: {instanceID: 4780}
+    - Class: 114
+      Script: {instanceID: 5168}
+    - Class: 114
+      Script: {instanceID: 5264}
+    - Class: 114
+      Script: {instanceID: 5540}
+    - Class: 114
+      Script: {instanceID: 5854}
+    - Class: 114
+      Script: {instanceID: 5866}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Game 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1452}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 2254}
+    - Class: 114
+      Script: {instanceID: 2684}
+    - Class: 114
+      Script: {instanceID: 2786}
+    - Class: 114
+      Script: {instanceID: 2858}
+    - Class: 114
+      Script: {instanceID: 3340}
+    - Class: 114
+      Script: {instanceID: 3356}
+    - Class: 114
+      Script: {instanceID: 3404}
+    - Class: 114
+      Script: {instanceID: 3464}
+    - Class: 114
+      Script: {instanceID: 3684}
+    - Class: 114
+      Script: {instanceID: 4060}
+    - Class: 114
+      Script: {instanceID: 4780}
+    - Class: 114
+      Script: {instanceID: 5042}
+    - Class: 114
+      Script: {instanceID: 5264}
+    - Class: 114
+      Script: {instanceID: 5540}
+    - Class: 114
+      Script: {instanceID: 5854}
+    - Class: 114
+      Script: {instanceID: 5866}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Game.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -76,41 +229,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1452}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2682}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 2784}
+      Script: {instanceID: 2786}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3354}
+      Script: {instanceID: 3356}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 3404}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3464}
     - Class: 114
-      Script: {instanceID: 3682}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 4058}
+      Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 4536}
+      Script: {instanceID: 4538}
     - Class: 114
-      Script: {instanceID: 4778}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 5164}
+      Script: {instanceID: 5168}
     - Class: 114
-      Script: {instanceID: 5260}
+      Script: {instanceID: 5264}
     - Class: 114
-      Script: {instanceID: 5536}
+      Script: {instanceID: 5540}
     - Class: 114
-      Script: {instanceID: 5850}
+      Script: {instanceID: 5854}
     - Class: 114
-      Script: {instanceID: 5862}
+      Script: {instanceID: 5866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -151,25 +304,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1452}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2682}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 2856}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3338}
+      Script: {instanceID: 3340}
     - Class: 114
-      Script: {instanceID: 3402}
+      Script: {instanceID: 3404}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3464}
     - Class: 114
-      Script: {instanceID: 3682}
+      Script: {instanceID: 3684}
     - Class: 114
-      Script: {instanceID: 4058}
+      Script: {instanceID: 4060}
     - Class: 114
-      Script: {instanceID: 5260}
+      Script: {instanceID: 5264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -195,6 +348,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b1a6f3c2af17883a352aef0ff3326a44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyMovement3
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -413,7 +572,7 @@ ScriptsOnlyBuild:
     className: Scrollbar
   - hash:
       serializedVersion: 2
-      Hash: 27cf3dc07632353bd9993c4192695c24
+      Hash: 516c1b58637168da235b993ad1733f3e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyHealth
@@ -602,7 +761,7 @@ ScriptsOnlyBuild:
       Hash: d218b2b03234d52e017954e85118cbdd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: EnemyMovement
+    className: EnemyMovement1
   - hash:
       serializedVersion: 2
       Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
@@ -675,6 +834,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
+  - hash:
+      serializedVersion: 2
+      Hash: b1a6f3c2af17883a352aef0ff3326a44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyMovement2
   - hash:
       serializedVersion: 2
       Hash: 28cfb4bd305dd11c6326cc3ee7c14138
@@ -775,4 +940,6 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/harol/Desktop/apks/parcial_2_0.07.apk
+  - Assets/Scenes/Game 1.unity
+  - Assets/Scenes/Game 2.unity
+  playerPath: C:/Users/harol/Desktop/apks/parcial_2_0.08.apk

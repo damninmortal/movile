@@ -28,7 +28,7 @@ public class PlayerHealth : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D col)
     {
-        if ( col.gameObject.tag=="Enemy")
+        if ( col.gameObject.tag=="Enemy"||col.gameObject.tag=="Enemy1"||col.gameObject.tag=="Enemy2")
         {
             health -= 0.5f;
         }
